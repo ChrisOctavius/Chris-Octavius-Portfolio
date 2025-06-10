@@ -1,0 +1,423 @@
+/* *{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+} */
+
+.section-1{
+    width: 100%;
+}
+
+.mother-for-hero{
+    display: flex;
+    padding-top: 10%;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.message-link, .github-link{
+    display: none;
+}
+
+.mother-for-hero-content{
+    width: 85vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.mother-for-hero-content p{
+    text-align: left;
+    color: #111161;
+}
+
+.para-1{
+    color: #111161;
+    font-size: 3.2rem;
+    text-shadow: 1px 1px 2px black;
+    animation: Zoom 2s infinite;
+}
+
+@keyframes Zoom {
+
+  
+    
+}
+
+.mother-for-hero-content .span-2, .span-3{
+    color: #111161;
+}
+
+.span-1{
+    font-size: 1.1rem;
+    margin-left: -15px;
+    font-weight: 100;
+}
+
+.hello-1{
+    animation: h-1 0.4s ease 0.4s 1 normal forwards;
+    font-size: 0.1rem;
+}
+
+@keyframes h-1 {
+
+    to{
+        font-size: 1.1rem;
+    }
+    
+}
+.hello-2{
+    animation: h-2 0.4s ease 0.8s 1 normal forwards;
+    font-size: 0.1rem;
+}
+
+@keyframes h-2 {
+
+    to{
+        font-size: 1.1rem;
+    }
+    
+}
+.hello-3{
+    animation: h-3 0.4s ease 1.2s 1 normal forwards;
+    font-size: 0.1rem;
+}
+
+@keyframes h-3 {
+
+    to{
+        font-size: 1.1rem;
+    }
+    
+}
+.hello-4{
+     animation: h-4 0.4s ease 1.6s 1 normal forwards;
+     font-size: 0.1rem;
+}
+
+@keyframes h-4 {
+
+    to{
+        font-size: 1.1rem;
+    }
+    
+}
+.hello-5{
+    animation: h-5 0.4s ease 2s 1 normal forwards;
+    font-size: 0.1rem;
+}
+
+@keyframes h-5 {
+
+    to{
+        font-size: 1.1rem;
+    }
+    
+}
+
+.span-2, .span-3{
+    opacity: 0;
+    animation: fading-text 2s ease 3s 1 normal forwards;
+}
+
+@keyframes fading-text {
+    
+    to{
+        opacity: 1;
+    }
+
+}
+
+.span-3, .span-5{
+    font-weight: bold;
+    color: #111161;
+}
+
+.span-4, .span-5{
+    /* margin-left: 30px; */
+     margin-left: -150%;
+    animation: sliding-text 2s ease 4s 1 normal forwards;
+}
+
+@keyframes sliding-text {
+    to{
+        margin-left: 30px;
+    }
+}
+
+.para-2{
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+}
+
+.spa-1, .spa-2{
+    font-weight: bold;
+    color: #111161;
+}
+
+.butt-container{
+    margin-top: 20px;
+    display: flex;
+    gap: 1rem;
+}
+
+.butt-container button{
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    transition: all 0.1s ease;
+    color: #111161;
+    font-weight: bold;
+}
+
+
+.butt-container button:hover{
+    background-color: #111161;
+    color: beige;
+    border: none;
+    box-shadow: 2px 2px 3px black;
+    padding: 10px 20px;
+    transform: ease 0.1s;
+}
+
+.butt-container .butt-1{
+    background-color: #111161;
+    border: none;
+    color: beige;
+}
+
+.for-hero-image{
+    width: 57vh;
+    height: 45.1vh;
+    background-color:#111161;
+    z-index: -1;
+    box-shadow: 1.5px 1.5px 2.5px black;
+    margin-top: 4%;
+    border: 4px solid #111161;
+}
+
+.for-hero-image img{
+   position: relative;
+   top: -24.8%;
+    left: -24.6px;
+}
+
+
+
+/* First media query screen size */
+/* @media (max-width: 320px){ 
+    
+    .mother-for-hero{
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 11%;
+        gap: 1rem;
+    }
+
+    .butt-container button{
+        padding: 6px 16px;
+    }
+
+    .for-hero-image img{
+        width: 250px;
+        height: auto;
+    }
+
+    .mother-for-hero-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 60vh;
+    }
+
+    .mother-for-hero-content p{
+        text-align: center;
+    }
+    
+    .mother-for-hero-content p span{
+        margin: none;
+        padding: 0;
+    }
+
+    .span-3, .span-5{
+        font-size: 1.5rem;
+    }
+
+    .span-2, .span-4{
+        font-size: 1rem;
+    }
+
+} */
+
+/* 
+Second media query screen size  */
+  @media (max-width: 480px) and (min-width: 320px){
+
+    .span-4, .span-5{
+    /* margin-left: 30px; */
+     margin-left: -200%;
+    animation: sliding-text 2s ease 4s 1 normal forwards;
+}
+
+@keyframes sliding-text {
+    to{
+        margin-left: 30px;
+    }
+}
+
+    .mother-for-hero{
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 14%;
+        gap: 1rem;
+    }
+
+    .butt-container button{
+        padding: 8px 18px;
+    }
+
+    .for-hero-image img{
+        width: 300px;
+        height: auto;
+    }
+
+    .mother-for-hero-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 65vh;
+    }
+
+    .mother-for-hero-content p{
+        text-align: center;
+    }
+    
+    .mother-for-hero-content p span{
+        margin: none;
+        padding: 0;
+    }
+
+    .span-3, .span-5{
+        font-size: 2rem;
+    }
+
+    .span-2, .span-4{
+        font-size: 1.5rem;
+    }
+
+}
+
+
+/* Third media query screen size */
+@media (max-width: 768px) and (min-width: 480px){
+
+    .span-4, .span-5{
+    /* margin-left: 30px; */
+     margin-left: -200%;
+    animation: sliding-text 2s ease 4s 1 normal forwards;
+}
+
+@keyframes sliding-text {
+    to{
+        margin-left: 30px;
+    }
+}
+
+    .mother-for-hero{
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 15%;
+        gap: 2rem;
+    }
+
+    .for-hero-image img{
+        position: relative;
+        width: 350px;
+        height: auto;
+    }
+
+    .for-hero-image{
+        height: 40.1vh;
+        width: 50.8vh;
+        margin-top: 5.5%;
+    }
+
+    .mother-for-hero-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 75vh;
+    }
+
+    .mother-for-hero-content p{
+        text-align: center;
+    }
+    
+    .mother-for-hero-content p span{
+        margin: none;
+        padding: 0;
+    }
+
+    .span-3, .span-5{
+        font-size: 2.5rem;
+    }
+
+    .span-2, .span-4{
+        font-size: 2rem;
+    }
+
+    }
+
+
+/* Fourth media query screen size */
+@media (max-width: 1024px) and (min-width: 768px){ 
+
+    .span-4, .span-5{
+    /* margin-left: 30px; */
+     margin-left: -200%;
+    animation: sliding-text 2s ease 4s 1 normal forwards;
+}
+
+@keyframes sliding-text {
+    to{
+        margin-left: 30px;
+    }
+}
+
+    .mother-for-hero{
+        gap: 2rem;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .mother-for-hero-content{
+        justify-content: center;
+        align-items: center;
+        padding-left: 5px;
+    }
+
+    .mother-for-hero-content p{
+        text-align: center;
+        margin-top: 0;
+        padding: 0;
+    }
+
+    .for-hero-image img{
+        width: 360px;
+        height: auto;
+        bottom: 0%;
+    }
+
+    .for-hero-image{
+        height: 41vh;
+        width: 50.9vh;
+    }
+
+ }  
